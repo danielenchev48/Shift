@@ -1,13 +1,12 @@
 <template>
     <div class="promo">
-        <video src="/vids/promo.mp4" loop autoplay></video>
+        <video src="/vids/promo.mp4" loop autoplay muted></video>
     </div>
 </template>
 
 <style lang="scss">
 .promo {
     overflow: hidden;
-    width: 100vw;
     height: 100vh;
 
     video {

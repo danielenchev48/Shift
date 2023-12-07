@@ -1,9 +1,11 @@
 <script setup>
 import HeaderItem from './components/HeaderVid.vue'
+import Brands from './components/Brands.vue'
 </script>
 
 <template>
-  <HeaderItem></HeaderItem>
+  <HeaderItem />
+  <Brands />
 </template>
 
 <style scoped></style>
