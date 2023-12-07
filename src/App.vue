@@ -1,6 +1,9 @@
 <script setup>
+import HeaderItem from './components/HeaderVid.vue'
 </script>
 
-<template></template>
+<template>
+  <HeaderItem></HeaderItem>
+</template>
 
 <style scoped></style>
