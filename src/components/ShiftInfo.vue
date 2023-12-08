@@ -36,10 +36,10 @@
 
         .moreButton {
             border: solid 1px;
-            font-size: 18px;
+            font-size: 16px;
             border-radius: 100px;
             display: inline;
-            padding: 5px 60px;
+            padding: 5px 40px;
             margin-top: 50px;
             cursor: pointer;
 
