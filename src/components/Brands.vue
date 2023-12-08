@@ -38,7 +38,10 @@ import airlinesIcon from './brands/IconAirlines.vue'
 
 <style>
 .brands {
-    /* height: 500px; */
+    flex-wrap: wrap;
+    padding: 250px 0;
+    margin: var(--vt-border-gap);
     display: flex;
+    border-bottom: solid 1px;
 }
 </style>

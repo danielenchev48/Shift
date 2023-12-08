@@ -13,8 +13,7 @@
 
 <style>
 .brand {
-    /* display: block; */
-    padding: 100px 50px;
+    padding: 0 50px;
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
