@@ -1,7 +1,12 @@
 import './assets/base.css'
+import VueSplide from '@splidejs/vue-splide';
+import '@splidejs/vue-splide/css';
 // import "./assets/reset.css";
 
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+const app = createApp(App);
+app.use(VueSplide);
+app.mount('#app');

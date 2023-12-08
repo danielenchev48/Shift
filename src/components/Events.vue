@@ -37,13 +37,14 @@
 
     .event {
         flex: 1 1 0;
+        cursor: pointer;
 
         .header {
             display: inline-block;
             font-size: 25px;
-            margin: 15px 0;
             line-height: 25px;
-
+            height: 26px;
+            margin: 15px 0;
         }
 
         .thumbnail {
@@ -66,7 +67,8 @@
         &:hover {
 
             .header {
-                border-bottom: solid 2px;
+                border-bottom: solid 1px;
+                box-sizing: border-box;
             }
 
             img {
