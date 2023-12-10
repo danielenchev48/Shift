@@ -20,7 +20,7 @@
     .header {
         display: inline-block;
         font-size: 25px;
-        line-height: 25px;
+        line-height: 24px;
         height: 26px;
         margin: 15px 0;
     }
@@ -45,7 +45,7 @@
     &:hover {
 
         .header {
-            border-bottom: solid 1px;
+            border-bottom: solid 2px;
             box-sizing: border-box;
         }
 

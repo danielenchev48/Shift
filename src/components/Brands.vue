@@ -1,5 +1,5 @@
 <script setup>
-import BrandTemplate from './brands/BrandTemplate.vue'
+import BrandTemplate from './templates/BrandTemplate.vue'
 import hondaIcon from './brands/IconHonda.vue'
 import yamahaIcon from './brands/IconYamaha.vue'
 import airlinesIcon from './brands/IconAirlines.vue'
