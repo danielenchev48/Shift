@@ -15,8 +15,6 @@
 </template>
 
 <style lang="scss">
-.engagement {}
-
 .logo {
     margin-bottom: 40px;
 }
