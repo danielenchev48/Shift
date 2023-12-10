@@ -46,44 +46,39 @@ onMounted(() => {
         <div class="sliders">
             <Splide :options="options" @Splide:dragged="test" aria-label="My Favorite Images">
                 <Engagement>
-                    <template #logo>LOGO</template>
-                    <template #header>HEADER</template>
-                    <template #info> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae officiis
-                        veritatis
-                        aliquid consectetur, aliquam voluptatibus quidem nesciunt labore molestias quis enim rerum expedita
-                        distinctio quos dicta quia reiciendis velit?</template>
+                    <template #logo><img src='../assets/img/logos/google.png' alt="googleLogo"></template>
+                    <template #header>google</template>
+                    <template #info> Our embedded partnership with Google is as deep as it gets. We’re the lead creative
+                        agency for Google Store and provide strategy, design, and prototyping to other divisions. Learn more
+                        about our partnership </template>
                 </Engagement>
                 <Engagement>
-                    <template #logo>LOGO</template>
-                    <template #header>HEADER</template>
-                    <template #info> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae officiis
-                        veritatis
-                        aliquid consectetur, aliquam voluptatibus quidem nesciunt labore molestias quis enim rerum expedita
-                        distinctio quos dicta quia reiciendis velit?</template>
+                    <template #logo><img src='../assets/img/logos/kfc.png' alt="kfcLogo"></template>
+                    <template #header>kfc</template>
+                    <template #info>An award-winning global, digital transformation engagement spanning eCommerce, mobile
+                        app, and new drive thru experiences. Bringing KFC’s brand story to life while making it easier for
+                        customers to buy chicken. Learn more about our partnership </template>
                 </Engagement>
                 <Engagement>
-                    <template #logo>LOGO</template>
-                    <template #header>HEADER</template>
-                    <template #info> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae officiis
-                        veritatis
-                        aliquid consectetur, aliquam voluptatibus quidem nesciunt labore molestias quis enim rerum expedita
-                        distinctio quos dicta quia reiciendis velit?</template>
+                    <template #logo><img src='../assets/img/logos/wilson.png' alt="wilsonLogo"></template>
+                    <template #header>wilson</template>
+                    <template #info> A reimagining of Wilson’s brand visual identity, and brand campaign, to support a new
+                        product drop and the launch of the first brick and mortar retail location in the brand’s 108-year
+                        history. Read our full case study </template>
                 </Engagement>
                 <Engagement>
-                    <template #logo>LOGO</template>
-                    <template #header>HEADER</template>
-                    <template #info> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae officiis
-                        veritatis
-                        aliquid consectetur, aliquam voluptatibus quidem nesciunt labore molestias quis enim rerum expedita
-                        distinctio quos dicta quia reiciendis velit?</template>
+                    <template #logo><img src='../assets/img/logos/at&t.png' alt="at&tLogo"></template>
+                    <template #header>at&t</template>
+                    <template #info>Redesigning the digital flagship for the largest telecommunications company in the
+                        world. Creating frictionless paths to purchase for a wide range of consumers across a vast portfolio
+                        of products and services. </template>
                 </Engagement>
                 <Engagement>
-                    <template #logo>LOGO</template>
-                    <template #header>HEADER</template>
-                    <template #info> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae officiis
-                        veritatis
-                        aliquid consectetur, aliquam voluptatibus quidem nesciunt labore molestias quis enim rerum expedita
-                        distinctio quos dicta quia reiciendis velit?</template>
+                    <template #logo><img src='../assets/img/logos/patagonia.png' alt="patagoniaLogo"></template>
+                    <template #header>patagonia</template>
+                    <template #info>Ongoing partnership providing strategy, branding, experience design, and development
+                        focused on bringing their mission and offerings to consumers through brand-led programs and
+                        platforms. Read our full case study </template>
                 </Engagement>
             </Splide>
         </div>
@@ -100,7 +95,7 @@ onMounted(() => {
 
     h2 {
         padding: var(--vt-border-gap);
-        margin: 20px 0 80px;
+        margin: 20px 0 100px;
         font-size: 40px;
         width: 100px;
     }

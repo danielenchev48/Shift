@@ -15,16 +15,24 @@
 </template>
 
 <style lang="scss">
-.logo {
-    margin-bottom: 40px;
-}
+.engagement {
+    .logo {
+        margin-bottom: 80px;
+        height: 40px;
 
-.header {
-    margin-bottom: 20px;
-    font-size: 30px;
-}
+        img {
+            height: 100%;
+        }
+    }
 
-.info {
-    font-size: 20px;
+    .header {
+        margin-bottom: 20px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .info {
+        font-size: 20px;
+    }
 }
 </style>
