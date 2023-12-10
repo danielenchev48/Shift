@@ -122,7 +122,7 @@ onMounted(() => {
     .progress-bar {
         background: rgb(78, 78, 78);
         border-radius: 20px;
-        height: 3px;
+        height: 2px;
         transition: width 400ms ease;
         width: 40%;
     }
