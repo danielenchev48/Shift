@@ -17,7 +17,7 @@ const options = {
 
 onMounted(() => {
     const slider = document.querySelector('.splide__list')
-    const progressBar = document.querySelector('.my-carousel-progress-bar')
+    const progressBar = document.querySelector('.progress-bar')
     var observer = new MutationObserver(function (mutations) {
         mutations.forEach(() => {
             const arr = slider.style.transform.split('')
