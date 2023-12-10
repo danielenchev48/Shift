@@ -15,28 +15,18 @@
 </template>
 
 <style lang="scss">
-.sliders {
-    margin-bottom: 500px;
-    cursor: grab;
+.engagement {}
 
-    &:active {
-        cursor: grabbing;
-    }
+.logo {
+    margin-bottom: 40px;
+}
 
-    .engagement {}
+.header {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
 
-    .logo {
-        margin-bottom: 40px;
-    }
-
-    .header {
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-
-    .info {
-        font-size: 20px;
-    }
-
+.info {
+    font-size: 20px;
 }
 </style>
