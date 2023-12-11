@@ -28,7 +28,7 @@ window.addEventListener("stopEventOnEnd", (e) => {
         data-scroll-call="stopEventOnEnd">
         <div class="msgWrapper">
             <div class="msg" data-scroll data-scroll-position="end,start" data-scroll-repeat data-scroll-ignore-fold
-                data-scroll-offset='30%, -201%' data-scroll-call="msgEvent">
+                data-scroll-offset='30%, -160%' data-scroll-call="msgEvent">
                 <h2>With SHIFT&#174; get ready for epic races! Feel the speed, chase the win.</h2>
                 <h3>Weekly <span>racing tournaments</span></h3>
                 <div class="animatedButton">ABOUT US</div>
@@ -50,6 +50,7 @@ window.addEventListener("stopEventOnEnd", (e) => {
     display: flex;
     margin-top: 150px;
     justify-content: flex-end;
+    // height: 100%;
     // position: relative;
 
     .msgWrapper {
@@ -64,14 +65,14 @@ window.addEventListener("stopEventOnEnd", (e) => {
             justify-content: space-between;
 
             h2 {
-                font-size: 50px;
+                font-size: 3.35vw;
                 width: 90%;
                 margin-bottom: -20px;
                 font-weight: bold;
             }
 
             h3 {
-                font-size: 25px;
+                font-size: 1.8vw;
             }
 
             span {
@@ -101,13 +102,14 @@ window.addEventListener("stopEventOnEnd", (e) => {
 
     .previewSection {
         width: 50%;
-        height: 270vh;
+        // height: 270vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 10vh;
 
         .preview {
-            height: 400px;
+            height: 50vh;
             width: 100%;
 
             video,
