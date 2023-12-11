@@ -27,7 +27,7 @@ import NewsBox from './templates/NewsBox.vue';
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 250px;
+        margin-top: 200px;
 
         h2 {
             width: 100px;

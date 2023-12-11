@@ -6,9 +6,11 @@ import Events from './components/Events.vue';
 import Engagements from './components/Engagements.vue';
 import AboutSection from './components/AboutSection.vue';
 import News from './components/News.vue';
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
+  <NavBar />
   <HeaderItem />
   <Brands />
   <ShiftInfo />
