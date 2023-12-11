@@ -91,7 +91,6 @@ onMounted(() => {
 
 <style lang="scss" >
 .engagementWrapper {
-    margin-bottom: 500px;
 
     h2 {
         padding: var(--vt-border-gap);
