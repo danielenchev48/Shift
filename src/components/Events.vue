@@ -8,21 +8,21 @@ import Event from './templates/Event.vue';
     <div class="events">
         <Event>
             <template #img><img src="../assets/img/thumbnails/sportCar.jpeg" alt=""></template>
-            <template #header>HEADER</template>
-            <template #info>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
-                TEXT TEXT TEXT</template>
+            <template #header>Drag Racing</template>
+            <template #info>Experience drag racing's unmatched fusion of power and speed – where every second sparks pure
+                adrenaline and unwavering competition.</template>
         </Event>
         <Event>
             <template #img><img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
-            <template #header>HEADER</template>
-            <template #info>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
-                TEXT TEXT TEXT</template>
+            <template #header>Rally</template>
+            <template #info>Explore the exhilarating world of rally racing, where precision and speed converge amidst
+                challenging terrain.</template>
         </Event>
         <Event>
             <template #img><img src="../assets/img/thumbnails/nightDrive.jpeg" alt=""></template>
-            <template #header>HEADER</template>
-            <template #info>TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
-                TEXT TEXT TEXT</template>
+            <template #header>Night Races</template>
+            <template #info>Step into the captivating domain of night racing, where the blend of speed and precision shines
+                under the night sky.</template>
         </Event>
     </div>
     <div class="borderAccs">

@@ -89,10 +89,10 @@ body {
 
 .animatedButton {
   border: solid 1px;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 100px;
   display: inline;
-  padding: 5px 30px;
+  padding: 6px 30px;
   margin-top: 50px;
   cursor: pointer;
 

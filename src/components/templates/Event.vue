@@ -12,7 +12,7 @@
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .event {
     flex: 1 1 0;
     cursor: pointer;
@@ -23,6 +23,7 @@
         line-height: 24px;
         height: 26px;
         margin: 15px 0;
+        font-weight: bold;
     }
 
     .thumbnail {
@@ -40,6 +41,7 @@
     p {
         width: 70%;
         font-size: 14px;
+        line-height: 22px;
     }
 
     &:hover {

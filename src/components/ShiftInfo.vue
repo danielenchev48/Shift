@@ -1,8 +1,13 @@
 <template>
     <div class="infoWrapper">
-        <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequuntur dignissimos iusto
-            molestiae, iure facere repellendus eveniet, voluptas nesciunt, sequi quaerat similique eligendi. Debitis rerum
-            cum quibusdam saepe dolore et!
+        <div class="info">
+            <p>
+                Our
+                commitment to redefining racing excellence resonates through our pursuit of precision, innovation, and
+                unyielding dedication. Embrace the allure of our meticulously crafted events, where the convergence of skill
+                and
+                passion embodies the pinnacle of racing sophistication.
+            </p>
             <div class="animatedButton">View More</div>
         </div>
         <div class="logo">
@@ -29,6 +34,10 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+
+        p {
+            line-height: 40px;
+        }
 
         @media screen and (max-width:1300px) {
             width: 70%;
