@@ -19,15 +19,14 @@ nav {
     height: 130px;
     background: #fff;
     position: fixed;
-    // top: 0;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    bottom: 82%;
     transition: 0.25s;
 
     &.hidden {
-        bottom: 100%;
+        top: -130px;
     }
 }
 </style>
