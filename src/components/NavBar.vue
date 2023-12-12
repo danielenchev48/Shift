@@ -17,7 +17,7 @@ window.onscroll = function () {
 <style lang="scss">
 nav {
     height: 130px;
-    background: #fff;
+    background: #292929ce;
     position: fixed;
     top: 0;
     left: 0;
