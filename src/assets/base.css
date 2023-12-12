@@ -20,7 +20,6 @@
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 
-  --vt-border-gap: 0 5%;
 }
 
 /* semantic color variables for this project */
@@ -36,6 +35,13 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
+}
+
+:root {
+  --vt-border-gap: 0 5%;
+
+  --scaled-thumbnail: 1.12;
+  --unscaled-thumbnail: 1.05;
 }
 
 @media (prefers-color-scheme: dark) {

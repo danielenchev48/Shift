@@ -11,6 +11,16 @@ import NewsBox from './templates/NewsBox.vue';
         <div class="news">
             <NewsBox>
                 <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #title> BIG TITLE BIG TITLE BIG TITLE BIG TITLE BIG TITLE </template>
+                <template #pressNumber>135.55.11</template>
+            </NewsBox>
+            <NewsBox>
+                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #title> Title</template>
+                <template #pressNumber>135.55.11</template>
+            </NewsBox>
+            <NewsBox>
+                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
                 <template #title> Title</template>
                 <template #pressNumber>135.55.11</template>
             </NewsBox>
@@ -21,7 +31,6 @@ import NewsBox from './templates/NewsBox.vue';
 <style lang="scss">
 .newsWrapper {
     margin: var(--vt-border-gap);
-    // height: 5000px;
 
     .header {
         display: flex;

@@ -33,7 +33,7 @@
             width: 100%;
             height: 550px;
             transition: 0.3s;
-            transform: scale(1.12);
+            transform: scale(var(--scaled-thumbnail));
             object-fit: cover;
         }
     }
@@ -52,7 +52,7 @@
         }
 
         img {
-            transform: scale(1.05);
+            transform: scale(var(--unscaled-thumbnail));
         }
     }
 }
