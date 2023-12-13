@@ -5,7 +5,7 @@ const locomotiveScroll = new LocomotiveScroll();
 window.addEventListener("msgEvent", (e) => {
     const { target, way } = e.detail;
 
-    if (way === "enter") {
+    if (way === "enter" && window.innerWidth > 1200) {
         target.classList.add("boxFixed")
         document.querySelector('.msgWrapper').classList.remove('boxEnded')
 
@@ -24,11 +24,11 @@ window.addEventListener("stopEventOnEnd", (e) => {
 </script>
 
 <template>
-    <div class="aboutWrapper" data-scroll data-scroll-repeat data-scroll-position="end,end" data-scroll-offset="30%,-10%"
+    <div class="aboutWrapper" data-scroll data-scroll-repeat data-scroll-position="end,end" data-scroll-offset="20%,0%"
         data-scroll-call="stopEventOnEnd">
         <div class="msgWrapper">
             <div class="msg" data-scroll data-scroll-position="end,start" data-scroll-repeat data-scroll-ignore-fold
-                data-scroll-offset='30%, -161%' data-scroll-call="msgEvent">
+                data-scroll-offset='20%, -150%' data-scroll-call="msgEvent">
                 <h2>With SHIFT&#174; get ready for epic races! Feel the speed, chase the win.</h2>
                 <h3>Weekly <span>racing tournaments</span></h3>
                 <div class="animatedButton">ABOUT US</div>
@@ -51,8 +51,21 @@ window.addEventListener("stopEventOnEnd", (e) => {
     margin-top: 150px;
     justify-content: flex-end;
 
+
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        margin-top: 50px;
+        row-gap: 50px;
+    }
+
     .msgWrapper {
         width: 50%;
+
+        @media screen and (max-width: 1200px) {
+            width: 100%;
+        }
+
 
         .msg {
             text-transform: uppercase;
@@ -62,15 +75,35 @@ window.addEventListener("stopEventOnEnd", (e) => {
             flex-direction: column;
             justify-content: space-between;
 
+            @media screen and (max-width: 1200px) {
+                height: unset;
+                align-items: center;
+                row-gap: 30px;
+                height: unset;
+            }
+
+
+
             h2 {
-                font-size: 3.35vw;
+                font-size: 3.5vw;
                 width: 90%;
                 margin-bottom: -20px;
                 font-weight: bold;
+
+                @media screen and (max-width: 1200px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
             }
 
             h3 {
                 font-size: 1.8vw;
+
+                @media screen and (max-width: 1200px) {
+                    font-size: 12px;
+                }
+
             }
 
             span {
@@ -87,7 +120,7 @@ window.addEventListener("stopEventOnEnd", (e) => {
     .boxFixed {
         position: fixed;
         width: 45%;
-        top: 10%;
+        top: 20%;
         left: 5%;
         height: 80vh;
     }
@@ -104,9 +137,25 @@ window.addEventListener("stopEventOnEnd", (e) => {
         flex-direction: column;
         gap: 10vh;
 
+        @media screen and (max-width: 1200px) {
+            width: 100%;
+            flex-direction: row;
+            gap: unset;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 15px;
+        }
+
+
         .preview {
             height: 50vh;
             width: 100%;
+
+            @media screen and (max-width: 1200px) {
+                width: 44vw;
+                height: 44vw;
+            }
+
 
             video,
             img {

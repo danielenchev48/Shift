@@ -10,28 +10,28 @@ import NewsBox from './templates/NewsBox.vue';
         </div>
         <div class="news">
             <NewsBox>
-                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #thumbnail> <img src="../assets/img/news/formula.jpg" alt=""></template>
                 <template #title> Formula 1's New Regulations Set to Redefine Racing in the 2023 Season </template>
                 <template #pressNumber>135.55.11</template>
             </NewsBox>
             <NewsBox>
-                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #thumbnail> <img src="../assets/img/news/speed.jpg" alt=""></template>
                 <template #title> Record-Breaking Speeds: Iconic Circuit Sees Unprecedented Lap Times</template>
                 <template #pressNumber>135.55.11</template>
             </NewsBox>
             <NewsBox>
-                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #thumbnail> <img src="../assets/img/news/team.jpg" alt=""></template>
                 <template #title> Underdog Triumph: Unexpected Team Claims Victory at Prestigious Endurance Race</template>
                 <template #pressNumber>135.55.11</template>
             </NewsBox>
             <NewsBox>
-                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #thumbnail> <img src="../assets/img/news/finishLine.jpg" alt=""></template>
                 <template #title> Controversy at the Finish Line: Disputed Decisions Rock the World of
                     Motorsports</template>
                 <template #pressNumber>135.55.11</template>
             </NewsBox>
             <NewsBox>
-                <template #thumbnail> <img src="../assets/img/thumbnails/rally.jpeg" alt=""></template>
+                <template #thumbnail> <img src="../assets/img/news/offRoad.jpg" alt=""></template>
                 <template #title> Unconventional Routes and Unpredictable Outcomes in Off-Road
                     Racing</template>
                 <template #pressNumber>135.55.11</template>
@@ -51,6 +51,11 @@ import NewsBox from './templates/NewsBox.vue';
         flex-wrap: wrap;
         row-gap: 30px;
         margin-top: 200px;
+
+        @media screen and (max-width: 1200px) {
+            margin-top: 50px;
+        }
+
 
         h2 {
             width: 200px;

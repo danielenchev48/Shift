@@ -24,6 +24,7 @@
     display: flex;
     flex-direction: row;
     height: 25vw;
+    min-height: 200px;
     border-top: solid 2px;
     padding-top: 20px;
     margin-bottom: 60px;
@@ -59,10 +60,7 @@
         width: 35%;
         margin-right: 20px;
         overflow: hidden;
-
-        @media screen and (max-width: 500px) {
-            width: 50%;
-        }
+        min-width: 200px;
 
         img {
             height: 100%;
