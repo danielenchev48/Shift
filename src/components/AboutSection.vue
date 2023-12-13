@@ -143,7 +143,9 @@ window.addEventListener("stopEventOnEnd", (e) => {
             gap: unset;
             flex-wrap: wrap;
             justify-content: space-between;
-            row-gap: 15px;
+            // row-gap: 30px;
+            gap: 15px;
+
         }
 
 
@@ -152,8 +154,8 @@ window.addEventListener("stopEventOnEnd", (e) => {
             width: 100%;
 
             @media screen and (max-width: 1200px) {
-                width: 44vw;
-                height: 44vw;
+                width: calc(50% - 7.5px);
+                height: 30vw;
             }
 
 
