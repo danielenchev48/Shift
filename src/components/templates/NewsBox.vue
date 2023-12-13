@@ -29,6 +29,11 @@
     margin-bottom: 60px;
     cursor: pointer;
 
+    @media screen and (max-width: 900px) {
+        margin-bottom: 20px;
+        height: 30vh;
+    }
+
     &:hover {
         .thumbnail {
             img {
@@ -55,6 +60,9 @@
         margin-right: 20px;
         overflow: hidden;
 
+        @media screen and (max-width: 500px) {
+            width: 50%;
+        }
 
         img {
             height: 100%;
@@ -72,19 +80,36 @@
         align-items: flex-start;
         width: 65%;
         position: relative;
+        text-transform: uppercase;
 
         h2 {
-            font-size: 40px;
+            font-size: 30px;
             display: inline-block;
             width: 70%;
             font-weight: bold;
             text-transform: uppercase;
+
+            @media screen and (max-width: 1000px) {
+                font-size: 20px;
+            }
+
+            @media screen and (max-width: 600px) {
+                font-size: 15px;
+            }
         }
 
         .pressNumber {
+
+            @media screen and (max-width: 900px) {
+                font-size: 10px;
+            }
+
+            @media screen and (max-width: 600px) {
+                font-size: 8px;
+            }
+
             span {
                 font-weight: bold;
-
             }
         }
 

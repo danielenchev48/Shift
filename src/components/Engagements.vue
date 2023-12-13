@@ -6,6 +6,16 @@ import { onMounted } from 'vue';
 const options = {
     type: 'slide',
     perPage: 3,
+    breakpoints: {
+        800: {
+            perPage: 2,
+        },
+
+        600: {
+            perPage: 1,
+            drag: true,
+        }
+    },
     arrows: false,
     drag: 'free',
     rewindByDrag: false,
@@ -14,6 +24,7 @@ const options = {
     pagination: false,
     flickPower: 100,
 }
+
 
 onMounted(() => {
     const slider = document.querySelector('.splide__list')
@@ -28,10 +39,12 @@ onMounted(() => {
             const sceenWidth = window.innerWidth
             const barPercentage = barPixels / sceenWidth
 
-            if (options.perPage === 3) {
-                progressBar.style.transform = `translateX(${barPercentage * -250}%)`
-            } else if (options.perPage === 2) {
+            if (window.innerWidth < 600) {
+                progressBar.style.transform = `translateX(${barPercentage * -40}%)`
+            } else if (window.innerWidth < 800) {
                 progressBar.style.transform = `translateX(${barPercentage * -110}%)`
+            } else {
+                progressBar.style.transform = `translateX(${barPercentage * -250}%)`
             }
         });
     });
@@ -44,7 +57,7 @@ onMounted(() => {
     <div class="engagementWrapper">
         <h2>FEATURED ENGAGEMENTS</h2>
         <div class="sliders">
-            <Splide :options="options" @Splide:dragged="test" aria-label="My Favorite Images">
+            <Splide :options="options" aria-label="Engagements">
                 <Engagement>
                     <template #logo><img src='../assets/img/logos/google.png' alt="googleLogo"></template>
                     <template #header>google</template>

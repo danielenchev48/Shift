@@ -38,7 +38,13 @@ import Event from './templates/Event.vue';
     margin: var(--vt-border-gap);
     gap: 20px;
     padding-bottom: 100px;
-    border-bottom: solid 1px;
+
+    @media screen and (max-width: 1100px) {
+        overflow: auto;
+        padding: var(--vt-border-gap);
+        padding-bottom: 100px;
+        margin: unset;
+    }
 }
 
 .borderAccs {
@@ -46,6 +52,7 @@ import Event from './templates/Event.vue';
     margin: var(--vt-border-gap);
     justify-content: space-between;
     align-items: center;
+    border-top: solid 1px;
 
     .second {
         align-items: center;

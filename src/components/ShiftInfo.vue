@@ -41,6 +41,14 @@
 
         @media screen and (max-width:1300px) {
             width: 70%;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            width: 100%;
         }
     }
 
@@ -51,6 +59,14 @@
         @media screen and (max-width:1300px) {
             justify-content: flex-end;
         }
+
+        @media screen and (max-width:600px) {
+            img {
+                width: 100%;
+            }
+        }
+
+
     }
 }
 </style>

@@ -7,6 +7,7 @@ import Engagements from './components/Engagements.vue';
 import AboutSection from './components/AboutSection.vue';
 import News from './components/News.vue';
 import NavBar from './components/NavBar.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import NavBar from './components/NavBar.vue';
   <Engagements />
   <AboutSection />
   <News />
+  <Footer />
 </template>
 
 <style scoped></style>

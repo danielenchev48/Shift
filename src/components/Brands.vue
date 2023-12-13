@@ -36,12 +36,17 @@ import airlinesIcon from './brands/IconAirlines.vue'
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .brands {
     flex-wrap: wrap;
     padding: 200px 0;
     margin: var(--vt-border-gap);
     display: flex;
     border-bottom: solid 1px;
+
+    @media screen and (max-width: 610px) {
+        padding: 50px 0;
+        row-gap: 30px;
+    }
 }
 </style>

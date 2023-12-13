@@ -33,6 +33,10 @@
 
     .info {
         font-size: 20px;
+
+        @media screen and (max-width: 1000px) {
+            font-size: 15px;
+        }
     }
 }
 </style>

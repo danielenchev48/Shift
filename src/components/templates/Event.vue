@@ -35,6 +35,12 @@
             transition: 0.3s;
             transform: scale(var(--scaled-thumbnail));
             object-fit: cover;
+
+            @media screen and (max-width: 1100px) {
+                width: 350px;
+                height: 400px;
+            }
+
         }
     }
 
