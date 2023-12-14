@@ -16,7 +16,7 @@ window.addEventListener("msgEvent", (e) => {
 
 window.addEventListener("stopEventOnEnd", (e) => {
     const { target, way } = e.detail;
-    if (way === "enter") {
+    if (way === "enter" && window.innerWidth > 1200) {
         document.querySelector('.boxFixed').classList.remove('boxFixed')
         document.querySelector('.msgWrapper').classList.add('boxEnded')
     }
