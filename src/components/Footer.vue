@@ -1,3 +1,7 @@
+<script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+</script> 
+
 <template>
     <footer>
         <div class="sections">
@@ -9,8 +13,11 @@
                 <h2><span>&#11044;</span>SUBSCRIBE FOR LATEST NEWS</h2>
                 <div class="inputWrapper">
                     <input type="text" placeholder="Email Address">
-                    <span class="arrow">&#129130;</span>
+                    <span class="arrow">
+                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
+                    </span>
                 </div>
+
             </section>
             <section class="lists">
                 <div>
