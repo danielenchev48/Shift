@@ -14,9 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
             </h2>
             <div class="arrowsBox">
                 <div class="arrow">
-                    <span>
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
-                    </span>
+                    <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
                     <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
                 </div>
             </div>
@@ -64,7 +62,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
             .arrowsBox {
                 .arrow {
                     transition: 0.5s;
-                    right: -102px;
+                    right: -105px;
                 }
             }
         }
