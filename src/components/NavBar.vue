@@ -1,4 +1,6 @@
 <script setup >
+import NavBarMenu from './NavBarMenu.vue';
+
 
 window.onscroll = function () {
     if (this.oldScroll < this.scrollY) {
@@ -8,12 +10,19 @@ window.onscroll = function () {
     }
     this.oldScroll = this.scrollY;
 }
+
+function openMenu() {
+    var menu = document.querySelector('.menuWrapper')
+    menu.classList.add('opened')
+    document.body.style.overflow = 'hidden';
+}
+
 </script>
 
 <template>
     <nav>
         <div class="logo">
-            <img src="../assets/img/shift.png" alt="" :onclick="() => console.log('helo')">
+            <img src="../assets/img/shift.png" alt="carLogo">
         </div>
         <div class="links">
             <a href="">About</a>
@@ -22,7 +31,10 @@ window.onscroll = function () {
             <a href="">Multimedia</a>
             <a href="">Contact</a>
         </div>
-        <div class="moreButton">o o o</div>
+        <div class="buttonWrapper">
+            <div class="moreButton">&#11044; <span>&#11044;</span> &#11044;</div>
+        </div>
+        <NavBarMenu />
     </nav>
 </template>
 
@@ -115,8 +127,28 @@ nav {
         }
     }
 
-    .moreButton {
+    .buttonWrapper {
         text-align: right;
+        font-size: 7px;
+        transform: translateY(-25%);
+
+        .moreButton {
+            width: 100%;
+            display: inline;
+            cursor: pointer;
+
+            span {
+                margin: 0 2px;
+                transition: 0.2s;
+            }
+
+            &:hover {
+                span {
+                    margin: 0 4px;
+                }
+            }
+        }
+
     }
 
 }
