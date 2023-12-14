@@ -36,9 +36,9 @@ window.addEventListener("stopEventOnEnd", (e) => {
         </div>
         <div class="previewSection">
             <div class="preview"> <img src="../assets/img/previews/dirtMotor.jpg" alt="dirtRacing"></div>
-            <div class="preview"><video src="../assets/img/previews/19265533.mp4" muted autoplay repeat></video></div>
+            <div class="preview"><video src="../assets/img/previews/speedVidoe.mp4" muted autoplay repeat></video></div>
             <div class="preview"><img src="../assets/img/previews/nascar.jpg" alt="dirtRacing"></div>
-            <div class="preview"><video src="../assets/img/previews/47095794.mp4" muted autoplay repeat></video></div>
+            <div class="preview"><video src="../assets/img/previews/rallyVideo.mp4" muted autoplay repeat></video></div>
         </div>
     </div>
 </template>
