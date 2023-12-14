@@ -1,3 +1,8 @@
+<script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+</script> 
+
+
 <template>
     <div class="newsBox">
         <div class="thumbnail">
@@ -9,7 +14,10 @@
             </h2>
             <div class="arrowsBox">
                 <div class="arrow">
-                    <span> &#129130;</span> &#129130;
+                    <span>
+                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
+                    </span>
+                    <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
                 </div>
             </div>
             <div class="pressNumber"><span>PRESS </span>
@@ -69,7 +77,6 @@
         min-width: 200px;
 
         @media screen and (max-width: 500px) {
-            // width: 20%;
             min-width: 120px;
         }
 

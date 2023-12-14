@@ -36,9 +36,15 @@
             transform: scale(var(--scaled-thumbnail));
             object-fit: cover;
 
+
             @media screen and (max-width: 1100px) {
                 width: 350px;
                 height: 400px;
+            }
+
+            @media screen and (max-width: 600px) {
+                width: 250px;
+                height: 300px;
             }
 
         }

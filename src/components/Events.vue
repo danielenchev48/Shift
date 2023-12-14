@@ -42,7 +42,7 @@ import Event from './templates/Event.vue';
     @media screen and (max-width: 1100px) {
         overflow: auto;
         padding: var(--vt-border-gap);
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         margin: unset;
     }
 }
