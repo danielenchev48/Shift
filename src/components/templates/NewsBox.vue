@@ -30,9 +30,15 @@
     margin-bottom: 60px;
     cursor: pointer;
 
+
     @media screen and (max-width: 900px) {
         margin-bottom: 20px;
         height: 30vh;
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 200px;
+        min-height: unset;
     }
 
     &:hover {
@@ -61,6 +67,11 @@
         margin-right: 20px;
         overflow: hidden;
         min-width: 200px;
+
+        @media screen and (max-width: 500px) {
+            // width: 20%;
+            min-width: 120px;
+        }
 
         img {
             height: 100%;
@@ -92,7 +103,7 @@
             }
 
             @media screen and (max-width: 600px) {
-                font-size: 15px;
+                font-size: 14px;
             }
         }
 

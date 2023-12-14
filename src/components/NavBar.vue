@@ -98,6 +98,10 @@ nav {
         display: flex;
         column-gap: 50px;
 
+        @media screen and (max-width: 900px) {
+            display: none;
+        }
+
         a {
             text-decoration: none;
             color: #fff;
