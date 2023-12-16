@@ -3,9 +3,9 @@ import VueSplide from '@splidejs/vue-splide';
 import '@splidejs/vue-splide/css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faXmark } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faArrowRight)
+library.add(faArrowRight, faXmark)
 
 import { createApp } from 'vue'
 import App from './App.vue'

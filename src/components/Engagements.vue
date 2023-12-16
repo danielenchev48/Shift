@@ -27,7 +27,7 @@ const options = {
 
 
 onMounted(() => {
-    const slider = document.querySelector('.splide__list')
+    const slider = document.querySelector('#splide02-list')
     const progressBar = document.querySelector('.progress-bar')
     var observer = new MutationObserver(function (mutations) {
         mutations.forEach(() => {

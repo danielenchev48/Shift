@@ -13,9 +13,8 @@ window.onscroll = function () {
 }
 
 function openMenu() {
-    var menu = document.querySelector('.menuWrapper')
+    var menu = document.querySelector('.navMenuWrapper')
     menu.classList.add('opened')
-    document.body.style.overflow = 'hidden';
 }
 
 </script>
@@ -27,7 +26,7 @@ function openMenu() {
         </div>
         <NavBarLinks />
         <div class="buttonWrapper">
-            <div class="moreButton">&#11044; <span>&#11044;</span> &#11044;</div>
+            <div class="moreButton" :onclick="openMenu">&#11044; <span>&#11044;</span> &#11044;</div>
         </div>
         <NavBarMenu />
     </nav>
@@ -76,7 +75,7 @@ nav {
         top: -130px;
     }
 
-    div {
+    >div {
         flex: 1 1 0;
     }
 
@@ -88,8 +87,6 @@ nav {
             filter: brightness(5.5);
         }
     }
-
-
 
     .buttonWrapper {
         text-align: right;
@@ -112,8 +109,6 @@ nav {
                 }
             }
         }
-
     }
-
 }
 </style>
