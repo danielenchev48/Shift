@@ -18,6 +18,9 @@ const options = {
         800: {
             perPage: 1,
             drag: true,
+        },
+        500: {
+            padding: '10px',
         }
     },
     arrows: false,
@@ -117,6 +120,7 @@ const options = {
     @media screen and (max-height:610px),
     (max-width:800px) {
         bottom: 0;
+        height: 100vh;
     }
 
     .menu {

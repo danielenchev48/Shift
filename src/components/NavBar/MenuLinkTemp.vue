@@ -109,11 +109,13 @@ import { SplideSlide } from '@splidejs/vue-splide';
             background-color: rgb(163, 163, 163);
             height: 100%;
             margin: 1px;
+            overflow: hidden;
 
             img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+                transform: scale(1.1);
             }
         }
     }
