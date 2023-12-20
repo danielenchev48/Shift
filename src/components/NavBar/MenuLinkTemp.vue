@@ -98,11 +98,18 @@ import { SplideSlide } from '@splidejs/vue-splide';
 
                     a,
                     p {
-                        color: rgb(255, 213, 213);
+                        color: rgb(255, 243, 232);
                         visibility: visible;
                     }
                 }
             }
+
+            .thumbnail {
+                img {
+                    transform: scale(var(--unscaled-thumbnail));
+                }
+            }
+
         }
 
         .thumbnail {
@@ -115,7 +122,8 @@ import { SplideSlide } from '@splidejs/vue-splide';
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
-                transform: scale(1.1);
+                transform: scale(var(--scaled-thumbnail));
+                transition: 0.3s;
             }
         }
     }
