@@ -41,6 +41,7 @@ import { SplideSlide } from '@splidejs/vue-splide';
     padding-bottom: 20px;
     margin-bottom: 10px;
 
+
     .menuProjectWrapper {
         visibility: hidden;
         position: relative;
@@ -98,7 +99,7 @@ import { SplideSlide } from '@splidejs/vue-splide';
 
                     a,
                     p {
-                        color: rgb(255, 243, 232);
+                        color: rgb(255, 213, 213);
                         visibility: visible;
                     }
                 }

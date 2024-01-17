@@ -117,6 +117,7 @@ const options = {
     visibility: hidden;
     text-transform: uppercase;
 
+
     @media screen and (max-height:500px) {
         bottom: 0;
     }
